@@ -11,6 +11,9 @@ Add a `.env` file to the root of the folder with the following variables set.
 If running agent against staging add:
 `NEW_RELIC_HOST=staging-collector.newrelic.com`
 
+Install the dependencies:
+`> npm install`
+
 ## Running the application
 `> npm run start`
 
