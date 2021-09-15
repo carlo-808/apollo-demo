@@ -20,6 +20,7 @@ Application will run at http://localhost/4000
 
 ### Simple Query
 
+graphql
 ```graphql
 query {
     libraries {
@@ -39,6 +40,7 @@ curl -X POST http://localhost:4000 -H 'Content-Type: application/json' -d '{"que
 
 ### Parameterized Query
 
+json
 ```json
 {
     "query": "query branchQuery($branch: String!) {
@@ -60,6 +62,7 @@ curl -X POST http://localhost:4000 -H 'Content-Type: application/json' -d '{"que
 
 ### Nested Parameterized Query
 
+graphql
 ```graphql
 query {
       library(branch: "riverside") {
@@ -79,6 +82,7 @@ curl -X POST http://localhost:4000 -H 'Content-Type: application/json' -d '{"que
 
 ### Mutation
 
+graphql
 ```graphql
 mutation {
   addThing(name: "added thing!")
