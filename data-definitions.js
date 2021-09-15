@@ -52,8 +52,18 @@ const magazines = [
     branch: 'downtown'
   },
   {
+    title: 'Reli Updates Weekly',
+    issue: 3,
+    branch: 'downtown'
+  },
+  {
     title: 'Node Weekly',
     issue: 1,
+    branch: 'riverside'
+  },
+  {
+    title: 'Node Weekly',
+    issue: 2,
     branch: 'riverside'
   }
 ]
