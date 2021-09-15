@@ -48,11 +48,7 @@ curl -X POST http://localhost:4000 -H 'Content-Type: application/json' -d '{"que
 json
 ```json
 {
-    "query": "query branchQuery($branch: String!) {
-      library(branch: $branch) {
-        magazines { title }
-      }
-    }",
+    "query": "query branchQuery($branch: String!) { library(branch: $branch) { magazines { title } }}",
     "variables":
     {
         "branch": "riverside"
