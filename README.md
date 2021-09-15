@@ -39,7 +39,7 @@ curl -X POST http://localhost:4000 -H 'Content-Type: application/json' -d '{"que
 
 ### Parameterized Query
 
-```graphql
+```json
 {
     "query": "query branchQuery($branch: String!) {
       library(branch: $branch) {
