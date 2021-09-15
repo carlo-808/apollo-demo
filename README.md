@@ -12,6 +12,7 @@ If running agent against staging add:
 `NEW_RELIC_HOST=staging-collector.newrelic.com`
 
 Install the dependencies:
+
 `> npm install`
 
 ## Running the application
