@@ -6,6 +6,7 @@ Simple Apollo Graphql demo application instrumented with New Relic
 Add a `.env` file to the root of the folder with the following variables set.
 
 `NEW_RELIC_LICENSE_KEY`
+
 `NEW_RELIC_APP_NAME`
 
 If running agent against staging add:
